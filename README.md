@@ -50,6 +50,7 @@ cd kubernetes
 make
 ```
 
+```
 binaysahoo@binays-Mac-mini kubernetes % make
 go version go1.22rc2 darwin/arm64
 !!! [0208 08:08:04] Failed to find GNU date as date or gdate. If you are on Mac: brew install coreutils.
@@ -75,6 +76,7 @@ go version go1.22rc2 darwin/arm64
     
 
 ##### You have a working [Docker environment].
+```
 
 ```
 git clone https://github.com/kubernetes/kubernetes
