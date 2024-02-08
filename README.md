@@ -73,10 +73,10 @@ go version go1.22rc2 darwin/arm64
     k8s.io/kubernetes/test/conformance/image/go-runner (non-static)
     k8s.io/kubernetes/cmd/kubemark (static)
     github.com/onsi/ginkgo/v2/ginkgo (non-static)
-    
+
+```
 
 ##### You have a working [Docker environment].
-```
 
 ```
 git clone https://github.com/kubernetes/kubernetes
