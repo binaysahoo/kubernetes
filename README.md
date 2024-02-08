@@ -50,6 +50,30 @@ cd kubernetes
 make
 ```
 
+binaysahoo@binays-Mac-mini kubernetes % make
+go version go1.22rc2 darwin/arm64
+!!! [0208 08:08:04] Failed to find GNU date as date or gdate. If you are on Mac: brew install coreutils.
+/Users/binaysahoo/workspace/gitrepo/kubernetes/hack/lib/version.sh: line 168: DATE: unbound variable
++++ [0208 08:08:04] Building go targets for darwin/arm64
+    k8s.io/kubernetes/cmd/kube-proxy (static)
+    k8s.io/kubernetes/cmd/kube-apiserver (static)
+    k8s.io/kubernetes/cmd/kube-controller-manager (static)
+    k8s.io/kubernetes/cmd/kubelet (non-static)
+    k8s.io/kubernetes/cmd/kubeadm (static)
+    k8s.io/kubernetes/cmd/kube-scheduler (static)
+    k8s.io/component-base/logs/kube-log-runner (static)
+    k8s.io/kube-aggregator (static)
+    k8s.io/apiextensions-apiserver (static)
+    k8s.io/kubernetes/cluster/gce/gci/mounter (static)
+    k8s.io/kubernetes/cmd/kubectl (non-static)
+    k8s.io/kubernetes/cmd/kubectl-convert (static)
+    github.com/onsi/ginkgo/v2/ginkgo (non-static)
+    k8s.io/kubernetes/test/e2e/e2e.test (test)
+    k8s.io/kubernetes/test/conformance/image/go-runner (non-static)
+    k8s.io/kubernetes/cmd/kubemark (static)
+    github.com/onsi/ginkgo/v2/ginkgo (non-static)
+    
+
 ##### You have a working [Docker environment].
 
 ```
